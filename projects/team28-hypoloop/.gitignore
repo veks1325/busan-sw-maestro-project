@@ -1,0 +1,18 @@
+scripts/setup_house_prices.py
+.DS_Store
+.env
+mlruns/
+data.db
+__pycache__/
+*.pyc
+
+# Old agent prototypes
+agent/react_agent.py
+agent/sequential_agent.py
+
+# User project data and experiments
+data/projects/*/
+!data/projects/.gitkeep
+
+# Submission directory
+busan_submission/

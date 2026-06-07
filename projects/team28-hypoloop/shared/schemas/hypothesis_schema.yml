@@ -1,0 +1,8 @@
+# u_id_가설_id.yml — 백엔드가 생성하는 가설 메타 파일 스키마
+u_id: string
+project_id: string
+hypothesis_id: string
+content: string
+max_experiments: integer   # 최대 실험 횟수(길이 제한)
+parallel_count: integer    # 병렬 실험 횟수
+ready: boolean             # false → trigger 후 true로 변경
