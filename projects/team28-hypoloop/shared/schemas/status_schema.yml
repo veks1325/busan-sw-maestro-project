@@ -1,0 +1,6 @@
+hypothesis_id: string       # 구분자 (백엔드)
+exp_id: string              # 구분자 (백엔드)
+current_task: string        # 현재 진행 중인 작업 (예: "EDA 진행 중", "피처 엔지니어링 진행 중") (에이전트)
+status: string              # 해당 작업의 상태 (ready / running / done / failed) (에이전트)
+last_updated: string        # 상태가 마지막으로 변경된 시간 (에이전트)
+analysis_text: string | null # 작업 관련 로그 또는 분석 코멘트 (필요시 사용) (에이전트)

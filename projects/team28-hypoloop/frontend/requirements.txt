@@ -1,0 +1,7 @@
+streamlit>=1.56
+requests>=2.31
+pandas>=2.0
+plotly>=5.9
+markdown>=3.4
+matplotlib>=3.7
+pytest>=7.4
