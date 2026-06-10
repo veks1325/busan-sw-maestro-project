@@ -1,9 +1,0 @@
-hypothesis_id: string       # 부모 가설 ID (백엔드)
-exp_id: string              # 해당 실험 고유 ID (백엔드, 나머지 모두 에이전트)
-design:
-  experiment_text: string   # 가설 기반 실험 설계 요약 (예: "XGBoost가 더 잘될 것 같아 모델을 XGBoost로 변경하여 실험 진행")
-  model: string             # 구체적인 모델명 (예: "XGBoost")
-  features: list            # 사용할 피처 목록
-  hyperparameters: object   # 하이퍼파라미터 키-값
-  formula: string           # 평가 산식/수식 (필요 없거나 고정이면 제외 가능)
-score: float | null         # 실험 점수 (초기 null, 에이전트가 최종 채움)
